@@ -1,0 +1,30 @@
+{
+  "name": "@bbp-studio/eslint-config-nextjs",
+  "version": "0.0.0",
+  "license": "BBPSTUDIO",
+  "author": "parkj5028 <parkj5028@gmail.com>",
+  "description": "eslint config for Next.js + Typescript",
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bbp-studio/eslint-config-nextjs"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "peerDependencies": {
+    "nextjs": ">=13",
+    "eslint": ">=8",
+    "typescript": "^5.0.4",
+    "eslint-config-next": "13.1.6",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  }
+}
