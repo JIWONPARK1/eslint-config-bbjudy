@@ -1,6 +1,6 @@
 {
   "name": "@bbp-studio/eslint-config-nextjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "BBPSTUDIO",
   "author": "parkj5028 <parkj5028@gmail.com>",
   "description": "A shareable ESLint configuration for Next.js + Typescript",
