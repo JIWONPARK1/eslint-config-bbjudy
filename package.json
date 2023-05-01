@@ -1,6 +1,6 @@
 {
   "name": "@bbp-studio/eslint-config-nextjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "BBPSTUDIO",
   "author": "parkj5028 <parkj5028@gmail.com>",
   "description": "A shareable ESLint configuration for Next.js + Typescript",
@@ -20,12 +20,6 @@
   },
   "peerDependencies": {
     "eslint": ">=8",
-    "eslint-config-next": "13.1.6",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-import-resolver-typescript": "^3.5.5",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-unused-imports": "^2.0.0",
     "nextjs": ">=13",
     "typescript": "^5.0.4"
   },
