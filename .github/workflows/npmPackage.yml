@@ -15,6 +15,10 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm install
+      - name: package.json info
+        uses: jaywcjlove/github-action-package@main
+        with:
+          unset: repository.type,repository.url,publishConfig
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
